@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f021e222-4015-4086-81b0-f8c49a81f659" name="Changes" comment="Initial">
+    <list default="true" id="f021e222-4015-4086-81b0-f8c49a81f659" name="Changes" comment="Initial1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/ProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/ProfilePage.java" afterDir="false" />
     </list>
@@ -75,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1658734785736</updated>
       <workItem from="1658734787084" duration="3817000" />
-      <workItem from="1658739192145" duration="2676000" />
+      <workItem from="1658739192145" duration="3279000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1658740910896</created>
@@ -84,7 +84,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658740910896</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial">
+      <created>1658741896551</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658741896551</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial1">
+      <created>1658742085862</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658742085862</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +117,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial" />
+    <MESSAGE value="Initial1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial1" />
   </component>
 </project>
