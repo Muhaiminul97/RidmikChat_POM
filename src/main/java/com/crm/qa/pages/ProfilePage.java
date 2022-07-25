@@ -17,6 +17,9 @@ public class ProfilePage {
     @FindBy(id = "profile_button")
     WebElement profileBtn;
 
+    @FindBy(id = "profile_button")
+    WebElement profileBtn1;
+
     @FindBy(id = "button_edit_profile")
     WebElement profileEditBtn;
 
