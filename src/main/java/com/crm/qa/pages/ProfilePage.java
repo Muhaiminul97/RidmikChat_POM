@@ -1,21 +1,21 @@
 package com.crm.qa.pages;
 
-import org.openqa.selenium.By;
+import com.crm.qa.util.TestUtil;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
+
+import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 
 import static com.crm.qa.base.TestBase.driver;
 
 public class ProfilePage {
 
-    public ProfilePage()
-    {
-        PageFactory.initElements(driver,this);
-    }
+
+
     @FindBy(id = "profile_button")
-    WebElement profileBtn;
+    WebElement profileBtn ;
 
     @FindBy(id = "button_edit_profile")
     WebElement profileEditBtn;
@@ -23,7 +23,10 @@ public class ProfilePage {
     @FindBy(id = "tvEditWork")
     WebElement workEdit;
 
-    @FindBy(id="etUserInput2")
+    @FindBy(id = "tvWorkLabel")
+    WebElement WorkLabel;
+
+    @FindBy(id = "etUserInput2")
     WebElement UserInput;
 
     @FindBy(id = "saveButtonTopRight")
@@ -41,5 +44,54 @@ public class ProfilePage {
     @FindBy(xpath = "//android.widget.ImageButton[@content-desc=\"Take photo\"]")
     WebElement TakeCoverPhoto;
 
+    @FindBy(xpath = "//android.widget.ImageButton[@content-desc=\"Done\"]")
+    WebElement CamDone;
 
+    @FindBy(id = "settings")
+    WebElement CoverSave;
+
+    @FindBy(id = "tvUploadPhoto")
+    WebElement UploadProfilePhoto;
+
+    @FindBy(id = "btnConfirmCrop")
+    WebElement ProfileImageConfirm;
+
+    @FindBy(id = "profile_photo")
+    WebElement ProfileThumbnail;
+
+    @FindBy(id = "name_text")
+    WebElement UserName;
+
+    @FindBy(id = "tvUserName")
+    WebElement UserNameEdit;
+    public ProfilePage() {
+        PageFactory.initElements(driver, this);
+    }
+    public void ClickProfileBtn()
+    {
+       profileBtn.click();
+
+    }
+
+    public boolean UserName()
+    {
+        return UserName.isDisplayed();
+    }
+
+    public void setProfileEditBtn()
+    {
+        profileEditBtn.click();
+    }
+
+   public void setWorkEdit()
+   {
+       workEdit.click();
+   }
+
+   public String ValidateWorkLabel() throws InterruptedException {
+       Thread.sleep(1000);
+       driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TestUtil.IMPLICIT_WAIT));
+       WorkLabel.getText();
+       return null;
+   }
 }

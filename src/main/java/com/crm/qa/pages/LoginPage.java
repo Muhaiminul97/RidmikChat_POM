@@ -33,8 +33,9 @@ public class LoginPage extends TestBase{
 	//Actions:
 	public String validateLoginPageTitle(){
 		return driver.getTitle();
+
 	}
-	
+
 	public boolean validateCRMImage(){
 		return crmLogo.isDisplayed();
 	}
