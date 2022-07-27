@@ -13,9 +13,8 @@ import static com.crm.qa.base.TestBase.driver;
 public class ProfilePage {
 
 
-
     @FindBy(id = "profile_button")
-    WebElement profileBtn ;
+    WebElement profileBtn;
 
     @FindBy(id = "button_edit_profile")
     WebElement profileEditBtn;
@@ -64,34 +63,37 @@ public class ProfilePage {
 
     @FindBy(id = "tvUserName")
     WebElement UserNameEdit;
+
     public ProfilePage() {
         PageFactory.initElements(driver, this);
     }
-    public void ClickProfileBtn()
-    {
-       profileBtn.click();
+
+    public void ClickProfileBtn() {
+        profileBtn.click();
 
     }
 
-    public boolean UserName()
-    {
+    public boolean UserName() {
         return UserName.isDisplayed();
     }
 
-    public void setProfileEditBtn()
-    {
+    public void setProfileEditBtn() {
         profileEditBtn.click();
     }
 
-   public void setWorkEdit()
-   {
-       workEdit.click();
-   }
+    public void setWorkEdit() {
+        workEdit.click();
+    }
 
-   public String ValidateWorkLabel() throws InterruptedException {
-       Thread.sleep(1000);
-       driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TestUtil.IMPLICIT_WAIT));
-       WorkLabel.getText();
-       return null;
-   }
+    public String ValidateWorkLabel() throws InterruptedException {
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TestUtil.IMPLICIT_WAIT));
+       return WorkLabel.getText();
+
+    }
+
+
+    public void setEditSaveBtn() {
+        EditSaveBtn.click();
+    }
+
 }
