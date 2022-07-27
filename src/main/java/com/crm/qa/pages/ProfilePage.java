@@ -34,6 +34,21 @@ public class ProfilePage {
     @FindBy(id = "tvEditEducation")
     WebElement EducationEditBtn;
 
+    @FindBy(id = "tvEducationLabel")
+    WebElement EducationLabel;
+
+    @FindBy(id = "tvLivingInLabel")
+    WebElement LivingLabel;
+
+    @FindBy(id = "tvEditLivingIn")
+    WebElement EditLivingIn;
+
+    @FindBy(id = "tvAboutYouLabel")
+    WebElement AboutYouLabel;
+
+    @FindBy(id = "tvEditAboutYou")
+    WebElement EditAboutYou;
+
     @FindBy(id = "upload_cover_photo")
     WebElement UploadCoverPhoto;
 
@@ -87,13 +102,31 @@ public class ProfilePage {
 
     public String ValidateWorkLabel() throws InterruptedException {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TestUtil.IMPLICIT_WAIT));
-       return WorkLabel.getText();
+        return WorkLabel.getText();
 
     }
-
 
     public void setEditSaveBtn() {
         EditSaveBtn.click();
     }
 
+    public void setUserInput(String test) {
+        UserInput.click();
+        UserInput.sendKeys(test);
+    }
+
+    public String validateworkinput() {
+        return UserInput.getText();
+    }
+
+    public String ValidateEducationLabel() throws InterruptedException {
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TestUtil.IMPLICIT_WAIT));
+        return EducationLabel.getText();
+
+    }
+
+    public void setEducationEditBtn()
+    {
+        EducationEditBtn.click();
+    }
 }
