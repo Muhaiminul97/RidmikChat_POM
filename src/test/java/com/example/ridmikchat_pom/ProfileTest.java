@@ -2,10 +2,12 @@ package com.example.ridmikchat_pom;
 
 import com.crm.qa.base.TestBase;
 import com.crm.qa.pages.ProfilePage;
+import com.crm.qa.util.TestUtil;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
 import java.net.MalformedURLException;
+import java.time.Duration;
 
 public class ProfileTest extends TestBase {
 
@@ -34,6 +36,7 @@ public class ProfileTest extends TestBase {
     @Test(priority = 2)
     public void DisplayedUserName() {
         Assert.assertTrue(profilePage.UserName());
+        System.out.println(profilePage.GetUserName());
     }
 
     @Test(priority = 3)
@@ -221,10 +224,19 @@ public class ProfileTest extends TestBase {
             System.out.println("Greater than expected value");
         }
         profilePage.setEditSaveBtn();
+        driver.navigate().back();
     }
-
+    @Test(priority = 12)
+    public void ProfileImageTest()
+    {
+        profilePage.setUploadProfilePhoto();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TestUtil.IMPLICIT_WAIT));
+        profilePage.ValidateThumbnail();
+    }
     @AfterSuite
     public void teardown() {
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TestUtil.IMPLICIT_WAIT));
+
         if (driver != null) {
             driver.quit();
         }

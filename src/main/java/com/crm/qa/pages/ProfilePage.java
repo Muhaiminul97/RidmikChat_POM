@@ -53,10 +53,10 @@ public class ProfilePage {
     WebElement UploadCoverPhoto;
 
     @FindBy(xpath = "//android.widget.FrameLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[2]/android.widget.TextView[2]")
-    WebElement CoverCam;
+    WebElement Cam;
 
     @FindBy(xpath = "//android.widget.ImageButton[@content-desc=\"Take photo\"]")
-    WebElement TakeCoverPhoto;
+    WebElement TakePhoto;
 
     @FindBy(xpath = "//android.widget.ImageButton[@content-desc=\"Done\"]")
     WebElement CamDone;
@@ -92,6 +92,10 @@ public class ProfilePage {
         return UserName.isDisplayed();
     }
 
+    public String GetUserName()
+    {
+       return UserName.getText();
+    }
     public void setProfileEditBtn() {
         profileEditBtn.click();
     }
@@ -147,5 +151,22 @@ public class ProfilePage {
     public void AboutYouEdit()
     {
         EditAboutYou.click();
+    }
+
+    public void setUploadProfilePhoto()
+    {
+        UploadProfilePhoto.click();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TestUtil.IMPLICIT_WAIT));
+        Cam.click();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TestUtil.IMPLICIT_WAIT));
+        TakePhoto.click();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TestUtil.IMPLICIT_WAIT));
+        CamDone.click();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TestUtil.IMPLICIT_WAIT));
+        ProfileImageConfirm.click();
+    }
+    public boolean ValidateThumbnail()
+    {
+        return ProfileThumbnail.isDisplayed();
     }
 }

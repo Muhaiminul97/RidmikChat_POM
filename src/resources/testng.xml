@@ -4,7 +4,7 @@
     <test verbose="2" preserve-order="true" name="C:/Users/HP/IdeaProjects/RidmikChat_POM/src/resources">
 
             <classes>
-                <class name="com.example.ridmikchat_pom.profileTest"/>
+                <class name="com.example.ridmikchat_pom.ProfileTest"/>
 
 
             </classes>
