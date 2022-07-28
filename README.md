@@ -1,7 +1,7 @@
 # RidmikChat_Automation_Page object Model(POM)
 
 
-**Ridmik Chat App Automation Testing has followed:**
+**Ridmik Chat Mobile App Automation Testing has followed:**
 
 1. Language : _Java with Maven dependency_
 2. Test Runner: _TestNG_
