@@ -115,7 +115,7 @@ public class ProfilePage {
         UserInput.sendKeys(test);
     }
 
-    public String validateworkinput() {
+    public String validateInput() {
         return UserInput.getText();
     }
 
@@ -125,8 +125,27 @@ public class ProfilePage {
 
     }
 
-    public void setEducationEditBtn()
+    public void setEducationEdit()
     {
         EducationEditBtn.click();
+    }
+
+    public String ValidateLivingLabel()
+    {
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TestUtil.IMPLICIT_WAIT));
+        return LivingLabel.getText();
+    }
+    public void LivingEdit()
+    {
+        EditLivingIn.click();
+    }
+    public String ValidateAboutYouLabel()
+    {
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TestUtil.IMPLICIT_WAIT));
+        return AboutYouLabel.getText();
+    }
+    public void AboutYouEdit()
+    {
+        EditAboutYou.click();
     }
 }

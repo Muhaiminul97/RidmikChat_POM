@@ -74,14 +74,13 @@ public class profileTest extends TestBase {
     public void workInputTest() {
         profilePage.setWorkEdit();
         System.out.println("Work Option Clicked Successfully");
-        int i = 80;
         String workText = "Character Count Online is an online tool that lets you easily calculate and count the number of characters, words, sentences and paragraphs in your text.";
         System.out.println("Copied Text:  " + workText.length());
         profilePage.setUserInput(workText);
-        int length = profilePage.validateworkinput().length();
+        int length = profilePage.validateInput().length();
         System.out.println("After Pasting Text: " + length);
         if (length <= 80) {
-            System.out.println("less than equal to 80");
+            System.out.println("Found string less than or equal to "+length);
         } else {
             System.out.println("Greater than expected value");
         }
@@ -112,6 +111,104 @@ public class profileTest extends TestBase {
         }
 
 
+    }
+    @Test(priority = 7)
+    public void EduInputTest() {
+        profilePage.setEducationEdit();
+        System.out.println("Education Edit Option Clicked Successfully");
+        String EduText = "Character Count Online is an online tool that lets you easily calculate and count the number of characters, words, sentences and paragraphs in your text.";
+        System.out.println("Copied Text:  " + EduText.length());
+        profilePage.setUserInput(EduText);
+        int length = profilePage.validateInput().length();
+        System.out.println("After Pasting Text: " + length);
+        if (length <= 120) {
+            System.out.println("Found string less than or equal to " + length);
+        } else {
+            System.out.println("Greater than expected value");
+        }
+        profilePage.setEditSaveBtn();
+    }
+    @Test(priority = 8)
+    public void LivingInLabelTest() throws InterruptedException {
+        Thread.sleep(1000);
+        String LivingLabel = profilePage.ValidateLivingLabel();
+        System.out.println("Found Label  :" + LivingLabel);
+        String[] strAr1 = new String[]{"আবাসস্থল", "Living in"};
+        boolean found = false;
+        for (int i = 0; i <= strAr1.length; i++) {
+            if (LivingLabel.contains(strAr1[i])) {
+                ex = strAr1[i].toString();
+                System.out.println("Matched Label::" + ex);
+                Assert.assertEquals(LivingLabel, ex);
+                found = true;
+                break;
+            }
+
+        }
+        if (found) {
+            System.out.println("Found successfully :: " + ex.toString());
+        } else {
+            System.out.println("Error");
+        }
+
+
+    }
+    @Test(priority = 9)
+    public void LivingInputTest() {
+        profilePage.LivingEdit();
+        System.out.println("Living In Edit Option Clicked Successfully");
+        String LivingText = "Character Count Online is an online tool that lets you easily calculate and count the number of characters, words, sentences and paragraphs in your text.";
+        System.out.println("Copied Text:  " + LivingText.length());
+        profilePage.setUserInput(LivingText);
+        int length = profilePage.validateInput().length();
+        System.out.println("After Pasting Text: " + length);
+        if (length <= 80) {
+            System.out.println("Found string less than or equal to " + length);
+        } else {
+            System.out.println("Greater than expected value");
+        }
+        profilePage.setEditSaveBtn();
+    }
+    @Test(priority = 10)
+    public void AboutLabelTest() throws InterruptedException {
+        Thread.sleep(1000);
+        String AboutLabel = profilePage.ValidateAboutYouLabel();
+        System.out.println("Found Label  :" + AboutLabel);
+        String[] strAr1 = new String[]{"আপনার সম্পর্কে কিছু লিখুন", "About you"};
+        boolean found = false;
+        for (int i = 0; i <= strAr1.length; i++) {
+            if (AboutLabel.contains(strAr1[i])) {
+                ex = strAr1[i].toString();
+                System.out.println("Matched Label::" + ex);
+                Assert.assertEquals(AboutLabel, ex);
+                found = true;
+                break;
+            }
+
+        }
+        if (found) {
+            System.out.println("Found successfully :: " + ex.toString());
+        } else {
+            System.out.println("Error");
+        }
+
+
+    }
+    @Test(priority = 11)
+    public void AboutYouInputTest() {
+        profilePage.AboutYouEdit();
+        System.out.println("Living In Edit Option Clicked Successfully");
+        String AboutYouText = "Character Count Online is an online tool that lets you easily calculate and count the number of characters, words, sentences and paragraphs in your text.";
+        System.out.println("Copied Text:  " + AboutYouText.length());
+        profilePage.setUserInput(AboutYouText);
+        int length = profilePage.validateInput().length();
+        System.out.println("After Pasting Text: " + length);
+        if (length <= 80) {
+            System.out.println("Found string less than or equal to " + length);
+        } else {
+            System.out.println("Greater than expected value");
+        }
+        profilePage.setEditSaveBtn();
     }
     @AfterSuite
     public void teardown() {
