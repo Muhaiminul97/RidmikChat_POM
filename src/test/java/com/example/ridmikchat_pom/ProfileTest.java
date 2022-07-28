@@ -6,15 +6,13 @@ import org.testng.Assert;
 import org.testng.annotations.*;
 
 import java.net.MalformedURLException;
-import java.util.ArrayList;
-import java.util.List;
 
-public class profileTest extends TestBase {
+public class ProfileTest extends TestBase {
 
     ProfilePage profilePage;
     String ex = null;
 
-    public profileTest() {
+    public ProfileTest() {
         super();
     }
 
@@ -53,7 +51,7 @@ public class profileTest extends TestBase {
         boolean found = false;
         for (int i = 0; i <= strAr1.length; i++) {
             if (workLabel.contains(strAr1[i])) {
-                ex = strAr1[i].toString();
+                ex = strAr1[i];
                 System.out.println("Matched Label::" + ex);
                 Assert.assertEquals(workLabel, ex);
                 found = true;
@@ -62,7 +60,7 @@ public class profileTest extends TestBase {
 
         }
         if (found) {
-            System.out.println("Found successfully :: " + ex.toString());
+            System.out.println("Found successfully :: " + ex);
         } else {
             System.out.println("Error");
         }
@@ -80,7 +78,7 @@ public class profileTest extends TestBase {
         int length = profilePage.validateInput().length();
         System.out.println("After Pasting Text: " + length);
         if (length <= 80) {
-            System.out.println("Found string less than or equal to "+length);
+            System.out.println("Found string less than or equal to " + length);
         } else {
             System.out.println("Greater than expected value");
         }
@@ -96,7 +94,7 @@ public class profileTest extends TestBase {
         boolean found = false;
         for (int i = 0; i <= strAr1.length; i++) {
             if (EduLabel.contains(strAr1[i])) {
-                ex = strAr1[i].toString();
+                ex = strAr1[i];
                 System.out.println("Matched Label::" + ex);
                 Assert.assertEquals(EduLabel, ex);
                 found = true;
@@ -105,13 +103,14 @@ public class profileTest extends TestBase {
 
         }
         if (found) {
-            System.out.println("Found successfully :: " + ex.toString());
+            System.out.println("Found successfully :: " + ex);
         } else {
             System.out.println("Error");
         }
 
 
     }
+
     @Test(priority = 7)
     public void EduInputTest() {
         profilePage.setEducationEdit();
@@ -128,6 +127,7 @@ public class profileTest extends TestBase {
         }
         profilePage.setEditSaveBtn();
     }
+
     @Test(priority = 8)
     public void LivingInLabelTest() throws InterruptedException {
         Thread.sleep(1000);
@@ -137,7 +137,7 @@ public class profileTest extends TestBase {
         boolean found = false;
         for (int i = 0; i <= strAr1.length; i++) {
             if (LivingLabel.contains(strAr1[i])) {
-                ex = strAr1[i].toString();
+                ex = strAr1[i];
                 System.out.println("Matched Label::" + ex);
                 Assert.assertEquals(LivingLabel, ex);
                 found = true;
@@ -146,13 +146,14 @@ public class profileTest extends TestBase {
 
         }
         if (found) {
-            System.out.println("Found successfully :: " + ex.toString());
+            System.out.println("Found successfully :: " + ex);
         } else {
             System.out.println("Error");
         }
 
 
     }
+
     @Test(priority = 9)
     public void LivingInputTest() {
         profilePage.LivingEdit();
@@ -169,17 +170,18 @@ public class profileTest extends TestBase {
         }
         profilePage.setEditSaveBtn();
     }
+
     @Test(priority = 10)
     public void AboutLabelTest() throws InterruptedException {
         Thread.sleep(1000);
         String AboutLabel = profilePage.ValidateAboutYouLabel();
-        System.out.println("Found Label  :" + AboutLabel);
-        String[] strAr1 = new String[]{"আপনার সম্পর্কে কিছু লিখুন", "About you"};
+        System.out.println("Found Label  : " + AboutLabel);
+        String[] strAr1 = new String[]{"আপনার সম্পর্কে", "About you"};
         boolean found = false;
         for (int i = 0; i <= strAr1.length; i++) {
             if (AboutLabel.contains(strAr1[i])) {
-                ex = strAr1[i].toString();
-                System.out.println("Matched Label::" + ex);
+                ex = strAr1[i];
+                System.out.println("Matched Label :: " + ex);
                 Assert.assertEquals(AboutLabel, ex);
                 found = true;
                 break;
@@ -187,29 +189,40 @@ public class profileTest extends TestBase {
 
         }
         if (found) {
-            System.out.println("Found successfully :: " + ex.toString());
+            System.out.println("Found successfully :: " + ex);
         } else {
             System.out.println("Error");
         }
 
 
     }
+
     @Test(priority = 11)
     public void AboutYouInputTest() {
         profilePage.AboutYouEdit();
-        System.out.println("Living In Edit Option Clicked Successfully");
-        String AboutYouText = "Character Count Online is an online tool that lets you easily calculate and count the number of characters, words, sentences and paragraphs in your text.";
+        System.out.println("About You Edit Option Clicked Successfully");
+        String AboutYouText = "Character Count Online is an online tool that lets you easily" +
+                " A biography, or simply bio, is a detailed description of a person's life." +
+                " It involves more than just the basic facts like education, work, relationships, and death; " +
+                "it portrays a person's experience of these life events. Unlike a profile or curriculum vitae" +
+                " (résumé), a biography presents a subject's life story, highlighting various aspects of their " +
+                "life, including intimate details of experience, and may include an analysis of the subject's " +
+                "personality.\n" +
+                "\n" +
+                "Biographical works are usually non-fiction, but fiction can also be used to portray a person's" +
+                " life. One in-depth form of biographical coverage is called legacy writing. Works in diverse media, from literature to film, form the genre known as biography.";
         System.out.println("Copied Text:  " + AboutYouText.length());
         profilePage.setUserInput(AboutYouText);
         int length = profilePage.validateInput().length();
         System.out.println("After Pasting Text: " + length);
-        if (length <= 80) {
+        if (length <= 500) {
             System.out.println("Found string less than or equal to " + length);
         } else {
             System.out.println("Greater than expected value");
         }
         profilePage.setEditSaveBtn();
     }
+
     @AfterSuite
     public void teardown() {
         if (driver != null) {
