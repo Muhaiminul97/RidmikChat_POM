@@ -13,7 +13,7 @@
 
 Dependencies which have been used:
 
- <dependencies>
+ 
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
@@ -68,7 +68,6 @@ Dependencies which have been used:
             <version>5.2.2</version>
         </dependency>
 
-
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
@@ -87,4 +86,4 @@ Dependencies which have been used:
             <version>4.1.4</version>
             <scope>compile</scope>
         </dependency>
-    </dependencies>
+    
