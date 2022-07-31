@@ -5,8 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f021e222-4015-4086-81b0-f8c49a81f659" name="Changes" comment="0.0.2">
+      <change afterPath="$PROJECT_DIR$/allure-results/062b1a9e-2e73-4a17-883f-a308fa20f73f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0721e951-b275-4fed-a25c-bb88a52797cb-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0ef1c138-7068-4fea-ae60-0757803ec43b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1e9b1887-950c-4021-951c-fe67d21f5818-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/206552fa-27ce-421e-a3bb-546d856cee5a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/2252401c-fe45-4851-911d-70b813145f30-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/325ffb28-8df9-48b3-a8c0-8f4a1c053815-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/504d6f5f-7e4c-4bdf-9045-00e0b2f47621-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5608a973-6a2e-47a1-9641-a26c874760ba-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/60cf918d-f2ee-4c94-ac5e-65e27f03f13c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/624d5d84-9481-4f75-b394-a4b8743070e6-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/65a62d05-1b4b-4294-8578-5a27b4c33d90-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/6fbfd304-f34f-401a-ac06-60ccc85fa340-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7ee355bd-c628-4229-bc24-91b395d8e376-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7ff3b52a-42e5-4724-98f7-137b31d4aeff-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/83dc8842-3835-4bd7-90f8-efd7c84b27ec-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8e81aa0e-2828-4d84-9b65-614a62d935f5-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/90ddf47b-0a9f-496c-841a-7b7deb2bc375-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/95b49793-9c6e-4771-98b1-b963defa9496-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9d867cbe-f2bc-4153-aad0-bc6e3444ee77-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/aa5f345d-a28f-40ae-8efc-c56012822708-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ab264733-0c69-4cc3-893f-a921d30a11f8-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ac92506e-cdd0-455b-9d5d-f0752f7e2c40-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b38dcb10-04e7-460c-b020-0ba9fdeec3a0-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b5758959-5a94-4936-9fcb-790528395d23-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c7fe044f-f761-40cc-bcb8-0b0452f5b4b2-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/cadd8d63-98ad-4862-ab74-7fe6b6cf8429-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/cea3aa02-9c69-4dce-aa71-0bbb017381ae-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d91de93d-3acf-4d00-a4e1-ebe853f7a282-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/dab1573f-16fd-4714-a823-6c5fc25a65db-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e49922a3-ba7d-47f4-acef-f94a73185149-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f4b05752-6506-40a3-bd87-f7667fccf437-result.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crm/qa/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crm/qa/base/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/ProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crm/qa/pages/ProfilePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crm/qa/util/TestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crm/qa/util/TestUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crm/qa/util/WebEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crm/qa/util/WebEventListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ridmikchat_pom/ProfileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/ridmikchat_pom/ProfileTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +107,25 @@
       <recent name="C:\Users\HP\IdeaProjects\RidmikChat_POM\src\main\java" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.Unnamed">
+    <configuration name="ProfileTest.workLabelTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RidmikChat_POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ridmikchat_pom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.ridmikchat_pom" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ridmikchat_pom.ProfileTest" />
+      <option name="METHOD_NAME" value="workLabelTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Unnamed" type="TestNG" nameIsGenerated="true">
       <module name="RidmikChat_POM" />
       <shortenClasspath name="NONE" />
@@ -90,6 +144,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.ProfileTest.workLabelTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SeleniumInternalSettingsState">
     <option name="lastFrameworkName" value="Selenium" />
@@ -114,7 +173,7 @@
       <workItem from="1659240922372" duration="2153000" />
       <workItem from="1659243251464" duration="266000" />
       <workItem from="1659243623642" duration="68000" />
-      <workItem from="1659243706866" duration="6180000" />
+      <workItem from="1659243706866" duration="8094000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1658740910896</created>
@@ -193,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659251918692</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="0.0.2">
+      <created>1659254286792</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1659254286792</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,78 +292,78 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/ProfilePage.java</url>
-          <line>86</line>
+          <line>85</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/example/ridmikchat_pom/ProfileTest.java</url>
-          <line>27</line>
+          <line>29</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/ProfilePage.java</url>
-          <line>82</line>
+          <line>81</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/ProfilePage.java</url>
-          <line>108</line>
+          <line>107</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/example/ridmikchat_pom/ProfileTest.java</url>
-          <line>52</line>
+          <line>54</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/example/ridmikchat_pom/ProfileTest.java</url>
-          <line>53</line>
+          <line>55</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/example/ridmikchat_pom/ProfileTest.java</url>
-          <line>57</line>
+          <line>59</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/example/ridmikchat_pom/ProfileTest.java</url>
-          <line>56</line>
+          <line>58</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/example/ridmikchat_pom/ProfileTest.java</url>
-          <line>60</line>
+          <line>62</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/example/ridmikchat_pom/ProfileTest.java</url>
-          <line>185</line>
+          <line>187</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/example/ridmikchat_pom/ProfileTest.java</url>
-          <line>186</line>
+          <line>188</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/example/ridmikchat_pom/ProfileTest.java</url>
-          <line>142</line>
+          <line>144</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/example/ridmikchat_pom/ProfileTest.java</url>
-          <line>143</line>
+          <line>145</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/example/ridmikchat_pom/ProfileTest.java</url>
-          <line>233</line>
+          <line>235</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
-      <inline-watch fileUrl="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/ProfilePage.java" line="86">
+      <inline-watch fileUrl="file://$PROJECT_DIR$/src/main/java/com/crm/qa/pages/ProfilePage.java" line="85">
         <watch expression="((ProfilePage)this).profileBtn" language="JAVA" custom="com.crm.qa.pages.ProfilePage" />
       </inline-watch>
     </watches-manager>
