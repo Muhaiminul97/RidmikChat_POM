@@ -87,3 +87,43 @@ Dependencies which have been used:
             <scope>compile</scope>
         </dependency>
 
+````
+├───.idea
+│   └───libraries
+├───.mvn
+│   └───wrapper
+├───allure-results
+├───App
+├───src
+│   ├───main
+│   │   └───java
+│   │       └───com
+│   │           └───crm
+│   │               └───qa
+│   │                   ├───base
+│   │                   ├───config
+│   │                   ├───pages
+│   │                   ├───testdata
+│   │                   └───util
+│   ├───resources
+│   └───test
+│       └───java
+│           └───com
+│               └───example
+│                   └───ridmikchat_pom
+└───target
+    ├───classes
+    │   └───com
+    │       └───crm
+    │           └───qa
+    │               ├───base
+    │               ├───pages
+    │               └───util
+    ├───generated-sources
+    │   └───annotations
+    ├───generated-test-sources
+    │   └───test-annotations
+    └───test-classes
+        └───com
+            └───example
+                └───ridmikchat_pom
