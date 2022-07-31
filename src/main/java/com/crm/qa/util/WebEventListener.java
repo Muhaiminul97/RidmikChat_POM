@@ -10,15 +10,14 @@ package com.crm.qa.util;
 
  */
 
-import java.io.IOException;
-
+import com.crm.qa.base.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.events.WebDriverEventListener;
 
-import com.crm.qa.base.TestBase;
+import java.io.IOException;
 
 public class WebEventListener extends TestBase implements WebDriverEventListener {
 

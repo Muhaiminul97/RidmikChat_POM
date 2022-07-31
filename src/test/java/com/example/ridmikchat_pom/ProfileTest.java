@@ -4,7 +4,9 @@ import com.crm.qa.base.TestBase;
 import com.crm.qa.pages.ProfilePage;
 import com.crm.qa.util.TestUtil;
 import org.testng.Assert;
-import org.testng.annotations.*;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
 import java.net.MalformedURLException;
 import java.time.Duration;
@@ -231,7 +233,7 @@ public class ProfileTest extends TestBase {
     {
         profilePage.setUploadProfilePhoto();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TestUtil.IMPLICIT_WAIT));
-        profilePage.ValidateThumbnail();
+        Assert.assertTrue(profilePage.ValidateThumbnail());
     }
     @AfterSuite
     public void teardown() {
