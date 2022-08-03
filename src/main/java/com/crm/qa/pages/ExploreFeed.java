@@ -29,7 +29,7 @@ public class ExploreFeed {
         }
 
         public void ValidateExploreBtn() {
-            ExploreBtn.click();
+           ExploreBtn.click();
         }
 
         public boolean FeedClick() {

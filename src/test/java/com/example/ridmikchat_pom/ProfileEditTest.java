@@ -212,8 +212,6 @@ public class ProfileEditTest extends TestBase {
                 "it portrays a person's experience of these life events. Unlike a profile or curriculum vitae" +
                 " (résumé), a biography presents a subject's life story, highlighting various aspects of their " +
                 "life, including intimate details of experience, and may include an analysis of the subject's " +
-                "personality.\n" +
-                "\n" +
                 "Biographical works are usually non-fiction, but fiction can also be used to portray a person's" +
                 " life. One in-depth form of biographical coverage is called legacy writing. Works in diverse media, from literature to film, form the genre known as biography.";
         System.out.println("Copied Text:  " + AboutYouText.length());
@@ -228,13 +226,7 @@ public class ProfileEditTest extends TestBase {
         profilePage.setEditSaveBtn();
         driver.navigate().back();
     }
-    @Test(priority = 12)
-    public void ProfileImageTest()
-    {
-        profilePage.setUploadProfilePhoto();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TestUtil.IMPLICIT_WAIT));
-        Assert.assertTrue(profilePage.ValidateThumbnail());
-    }
+
     @AfterSuite
     public void teardown() {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TestUtil.IMPLICIT_WAIT));

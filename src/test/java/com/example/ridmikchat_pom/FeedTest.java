@@ -10,7 +10,6 @@ import java.net.MalformedURLException;
 
 public class FeedTest extends TestBase {
     ExploreFeed exploreFeed;
-    ProfileEditTest profileEditTest;
 
     public FeedTest() {
         super();
@@ -27,19 +26,19 @@ public class FeedTest extends TestBase {
      exploreFeed.ValidateExploreBtn();
     }
 
-    @Test
+    @Test(priority = 2)
     public void FeedClickTest() {
         exploreFeed.FeedClickBtn();
     }
 
-    @Test
+    @Test(priority = 3)
     public void GalleryImageTest() throws InterruptedException {
     exploreFeed.GalleryBtnClick();
     exploreFeed.GalleryImageEditor();
 
     }
 
-    @AfterTest
+    @AfterTest(enabled = false)
     public void teardown() {
         if (driver != null) {
             driver.quit();

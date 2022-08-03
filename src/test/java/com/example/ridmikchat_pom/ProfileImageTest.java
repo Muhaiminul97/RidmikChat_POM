@@ -6,6 +6,7 @@ import com.crm.qa.util.TestUtil;
 import net.bytebuddy.implementation.bind.annotation.Super;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -19,7 +20,7 @@ public class ProfileImageTest extends TestBase {
         super();
     }
 
-    @BeforeTest
+    @BeforeMethod
     public void setup() throws MalformedURLException {
    initialization();
    profilePage = new ProfilePage();
