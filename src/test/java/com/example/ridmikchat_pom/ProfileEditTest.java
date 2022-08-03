@@ -11,12 +11,12 @@ import org.testng.annotations.Test;
 import java.net.MalformedURLException;
 import java.time.Duration;
 
-public class ProfileTest extends TestBase {
+public class ProfileEditTest extends TestBase {
 
     ProfilePage profilePage;
     String ex = null;
 
-    public ProfileTest() {
+    public ProfileEditTest() {
         super();
     }
 
