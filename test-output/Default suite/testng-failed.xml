@@ -3,20 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.example.ridmikchat_pom.FeedTest">
+      <class name="com.example.ridmikchat_pom.ProfileEditTest">
         <methods>
-          <include name="setup"/>
           <include name="teardown"/>
-          <include name="GalleryImageTest"/>
-        </methods>
-      </class> <!-- com.example.ridmikchat_pom.FeedTest -->
-      <class name="com.example.ridmikchat_pom.ProfileImageTest">
-        <methods>
-          <include name="UserProfileImageTest"/>
+          <include name="LivingInputTest"/>
           <include name="setup"/>
-          <include name="teardown"/>
+          <include name="AboutYouInputTest"/>
+          <include name="EduInputTest"/>
+          <include name="LivingInLabelTest"/>
+          <include name="workInputTest"/>
+          <include name="EduLabelTest"/>
+          <include name="AboutLabelTest"/>
         </methods>
-      </class> <!-- com.example.ridmikchat_pom.ProfileImageTest -->
+      </class> <!-- com.example.ridmikchat_pom.ProfileEditTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,50 @@
+{
+  "uuid": "6cf67f37-511b-49e8-ba52-a408888d1aaf",
+  "name": "RidmikChat_POM",
+  "children": [
+    "42c9543f-f407-4cc4-829c-88f829f244b1",
+    "19fff289-e244-48ce-8964-459b2f489283",
+    "75a116ac-9da8-454a-b31f-cdd9ed1b08c0",
+    "f220bff5-753b-48f6-a51c-950969a34a9d",
+    "09c459db-6d2c-4480-88f0-3f043d125c18",
+    "0ef015b2-6ae2-4ca3-8d13-95548a3eca90",
+    "8a400985-d15e-4855-b6a2-115e27e2c599",
+    "b5371d9d-aa6e-41fe-9638-240221cb738e",
+    "bd4a94c1-635c-432a-bba2-700e57659b2d",
+    "f3a5f31f-de79-4257-8804-abed242aef84",
+    "e91bf4e9-5cd0-4e51-b7f7-72f6b4c28763",
+    "d7f9ec73-8467-4df3-937b-2d328714eafc",
+    "1ae62b42-4f8d-4553-8b30-b28140cb9a3c",
+    "0d7af6db-dd88-4a76-a0b1-750eb2c02892",
+    "0617f381-f1b6-4302-9db6-56eaafd68b80",
+    "df25fd5c-e327-4213-8bae-a9a0f491f051"
+  ],
+  "befores": [
+    {
+      "name": "setup",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1659505606449,
+      "stop": 1659505619205
+    }
+  ],
+  "afters": [
+    {
+      "name": "teardown",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1659505666021,
+      "stop": 1659505666395
+    }
+  ],
+  "start": 1659505606417,
+  "stop": 1659505666395
+}

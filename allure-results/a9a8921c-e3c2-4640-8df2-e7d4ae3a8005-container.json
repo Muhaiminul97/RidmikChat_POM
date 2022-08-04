@@ -1,0 +1,11 @@
+{
+  "uuid": "a9a8921c-e3c2-4640-8df2-e7d4ae3a8005",
+  "name": "com.example.ridmikchat_pom.ProfileImageTest",
+  "children": [
+    "1ae62b42-4f8d-4553-8b30-b28140cb9a3c"
+  ],
+  "befores": [],
+  "afters": [],
+  "start": 1659505606418,
+  "stop": 1659505666400
+}

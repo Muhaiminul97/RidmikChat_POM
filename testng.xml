@@ -2,11 +2,11 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite" preserve-order="true">
   <test thread-count="5" name="Test" preserve-order="true" enabled="true">
+    
     <classes>
       <class name="com.example.ridmikchat_pom.ProfileEditTest"/>
       <class name="com.example.ridmikchat_pom.ProfileImageTest"/>
       <class name="com.example.ridmikchat_pom.FeedTest"/>
-
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

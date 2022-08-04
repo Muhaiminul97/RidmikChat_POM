@@ -1,0 +1,25 @@
+{
+  "uuid": "fcba39b9-c03e-4e22-9d1c-e5c4fd68751e",
+  "name": "RidmikChat_POM",
+  "children": [
+    "c639b103-dfe0-4895-aa02-c83f05b68dcc",
+    "b5d82671-c4e1-4730-bd88-55bc93e62692",
+    "39413d5a-dc46-4d37-801b-61d9b9f81a96"
+  ],
+  "befores": [],
+  "afters": [
+    {
+      "name": "teardown",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1659505259379,
+      "stop": 1659505259822
+    }
+  ],
+  "start": 1659505225721,
+  "stop": 1659505259822
+}

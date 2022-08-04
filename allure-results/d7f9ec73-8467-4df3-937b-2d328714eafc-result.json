@@ -1,0 +1,61 @@
+{
+  "uuid": "d7f9ec73-8467-4df3-937b-2d328714eafc",
+  "historyId": "3c3eb0dc246756d5bc83159c6a8dae98",
+  "fullName": "com.example.ridmikchat_pom.ProfileEditTest.ProfileImageTest",
+  "labels": [
+    {
+      "name": "package",
+      "value": "com.example.ridmikchat_pom.ProfileEditTest"
+    },
+    {
+      "name": "testClass",
+      "value": "com.example.ridmikchat_pom.ProfileEditTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "ProfileImageTest"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "RidmikChat_POM"
+    },
+    {
+      "name": "subSuite",
+      "value": "com.example.ridmikchat_pom.ProfileEditTest"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-Q14IO4VP"
+    },
+    {
+      "name": "thread",
+      "value": "10504@LAPTOP-Q14IO4VP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "ProfileImageTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1659505644749,
+  "stop": 1659505652754
+}

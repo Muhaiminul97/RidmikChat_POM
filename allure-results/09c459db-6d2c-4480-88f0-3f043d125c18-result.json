@@ -1,0 +1,61 @@
+{
+  "uuid": "09c459db-6d2c-4480-88f0-3f043d125c18",
+  "historyId": "738e5fd25be592a392f59e2b39bb69d9",
+  "fullName": "com.example.ridmikchat_pom.ProfileEditTest.workInputTest",
+  "labels": [
+    {
+      "name": "package",
+      "value": "com.example.ridmikchat_pom.ProfileEditTest"
+    },
+    {
+      "name": "testClass",
+      "value": "com.example.ridmikchat_pom.ProfileEditTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "workInputTest"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "RidmikChat_POM"
+    },
+    {
+      "name": "subSuite",
+      "value": "com.example.ridmikchat_pom.ProfileEditTest"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-Q14IO4VP"
+    },
+    {
+      "name": "thread",
+      "value": "10504@LAPTOP-Q14IO4VP.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "workInputTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1659505623589,
+  "stop": 1659505628268
+}

@@ -3,11 +3,18 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="com.example.ridmikchat_pom.FeedTest">
+        <methods>
+          <include name="setup"/>
+          <include name="ExploreBtn"/>
+          <include name="teardown"/>
+          <include name="FeedClickTest"/>
+          <include name="GalleryImageTest"/>
+        </methods>
+      </class> <!-- com.example.ridmikchat_pom.FeedTest -->
       <class name="com.example.ridmikchat_pom.ProfileEditTest">
         <methods>
           <include name="teardown"/>
-          <include name="setup"/>
-          <include name="DisplayedUserName"/>
         </methods>
       </class> <!-- com.example.ridmikchat_pom.ProfileEditTest -->
     </classes>

@@ -1,0 +1,13 @@
+{
+  "uuid": "314fec9f-50a5-436f-b816-fe870483b22a",
+  "name": "com.example.ridmikchat_pom.FeedTest",
+  "children": [
+    "0d7af6db-dd88-4a76-a0b1-750eb2c02892",
+    "0617f381-f1b6-4302-9db6-56eaafd68b80",
+    "df25fd5c-e327-4213-8bae-a9a0f491f051"
+  ],
+  "befores": [],
+  "afters": [],
+  "start": 1659505606419,
+  "stop": 1659505666401
+}

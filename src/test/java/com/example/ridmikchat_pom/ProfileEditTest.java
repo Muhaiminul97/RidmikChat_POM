@@ -4,9 +4,7 @@ import com.crm.qa.base.TestBase;
 import com.crm.qa.pages.ProfilePage;
 import com.crm.qa.util.TestUtil;
 import org.testng.Assert;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import java.net.MalformedURLException;
 import java.time.Duration;
@@ -20,7 +18,7 @@ public class ProfileEditTest extends TestBase {
         super();
     }
 
-    @BeforeMethod
+    @BeforeTest
     public void setup() throws MalformedURLException {
 
         initialization();
@@ -227,7 +225,7 @@ public class ProfileEditTest extends TestBase {
         driver.navigate().back();
     }
 
-    @AfterSuite
+   /* @AfterTest()
     public void teardown() {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TestUtil.IMPLICIT_WAIT));
 
@@ -235,5 +233,5 @@ public class ProfileEditTest extends TestBase {
             driver.quit();
         }
 
-    }
+    }*/
 }

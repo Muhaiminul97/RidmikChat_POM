@@ -1,0 +1,24 @@
+{
+  "uuid": "0460bf2c-e429-4a74-9d34-f21e8049abf0",
+  "name": "com.example.ridmikchat_pom.FeedTest.setup",
+  "children": [
+    "df25fd5c-e327-4213-8bae-a9a0f491f051"
+  ],
+  "description": "",
+  "befores": [
+    {
+      "name": "setup",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1659505660677,
+      "stop": 1659505660678
+    }
+  ],
+  "afters": [],
+  "start": 1659505660677,
+  "stop": 1659505660678
+}

@@ -1,0 +1,1 @@
+{"uuid":"afc1e83d-26f8-4df1-898a-c6d038f86944","name":"RidmikChat_POM","children":["b7c0a5d8-32af-4985-b2dc-807f5025e207"],"befores":[],"afters":[{"name":"teardown","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1659516084954,"stop":1659516084958}],"start":1659516084688,"stop":1659516084960}

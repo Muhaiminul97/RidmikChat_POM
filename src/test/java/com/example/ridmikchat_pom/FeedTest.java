@@ -2,9 +2,7 @@ package com.example.ridmikchat_pom;
 
 import com.crm.qa.base.TestBase;
 import com.crm.qa.pages.ExploreFeed;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import java.net.MalformedURLException;
 
@@ -15,7 +13,7 @@ public class FeedTest extends TestBase {
         super();
     }
 
-    @BeforeMethod
+    @BeforeTest
     public void setup() throws MalformedURLException {
         initialization();
         exploreFeed = new ExploreFeed();
@@ -38,7 +36,7 @@ public class FeedTest extends TestBase {
 
     }
 
-    @AfterTest(enabled = false)
+    @AfterTest(alwaysRun = true)
     public void teardown() {
         if (driver != null) {
             driver.quit();

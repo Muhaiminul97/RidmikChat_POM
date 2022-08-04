@@ -1,0 +1,24 @@
+{
+  "uuid": "fa2bd957-55ad-4d45-a8f8-742af2f39bc4",
+  "name": "com.example.ridmikchat_pom.ProfileEditTest.setup",
+  "children": [
+    "bd4a94c1-635c-432a-bba2-700e57659b2d"
+  ],
+  "description": "",
+  "befores": [
+    {
+      "name": "setup",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1659505635199,
+      "stop": 1659505635201
+    }
+  ],
+  "afters": [],
+  "start": 1659505635199,
+  "stop": 1659505635201
+}

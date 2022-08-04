@@ -19,7 +19,7 @@ public class TestBase {
 	public static Properties prop;
 	public static WebEventListener eventListener;
 	public static AppiumDriver driver = null;
-	
+
 	public TestBase(){
 		try {
 			prop = new Properties();
@@ -51,7 +51,7 @@ public class TestBase {
 				caps.setCapability("appPackage", appPackage);
 				caps.setCapability("noReset", noReset);
 				caps.setCapability("appActivity", appActivity);
-				driver = new AndroidDriver(new URL("http://localhost:" + port + "/wd/hub"), caps);//server URl
+				driver = new AppiumDriver(new URL("http://localhost:" + port + "/wd/hub"), caps);//server URl
 
 
 			}
